@@ -15,6 +15,8 @@
 		F403F4E226F590DA0065B4EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F403F4E026F590DA0065B4EC /* LaunchScreen.storyboard */; };
 		F403F4ED26F590DA0065B4EC /* testappTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F403F4EC26F590DA0065B4EC /* testappTests.swift */; };
 		F403F4F826F590DA0065B4EC /* testappUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F403F4F726F590DA0065B4EC /* testappUITests.swift */; };
+		F403F50826F59A580065B4EC /* ButtonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F403F50726F59A580065B4EC /* ButtonViewController.swift */; };
+		F403F50A26F5A0840065B4EC /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F403F50926F5A0840065B4EC /* CollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		F403F4F326F590DA0065B4EC /* testappUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testappUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F403F4F726F590DA0065B4EC /* testappUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testappUITests.swift; sourceTree = "<group>"; };
 		F403F4F926F590DA0065B4EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F403F50726F59A580065B4EC /* ButtonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonViewController.swift; sourceTree = "<group>"; };
+		F403F50926F5A0840065B4EC /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,7 +105,9 @@
 			children = (
 				F403F4D526F590D60065B4EC /* AppDelegate.swift */,
 				F403F4D726F590D60065B4EC /* SceneDelegate.swift */,
+				F403F50726F59A580065B4EC /* ButtonViewController.swift */,
 				F403F4D926F590D60065B4EC /* ViewController.swift */,
+				F403F50926F5A0840065B4EC /* CollectionViewCell.swift */,
 				F403F4DB26F590D60065B4EC /* Main.storyboard */,
 				F403F4DE26F590DA0065B4EC /* Assets.xcassets */,
 				F403F4E026F590DA0065B4EC /* LaunchScreen.storyboard */,
@@ -259,6 +265,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F403F50A26F5A0840065B4EC /* CollectionViewCell.swift in Sources */,
+				F403F50826F59A580065B4EC /* ButtonViewController.swift in Sources */,
 				F403F4DA26F590D60065B4EC /* ViewController.swift in Sources */,
 				F403F4D626F590D60065B4EC /* AppDelegate.swift in Sources */,
 				F403F4D826F590D60065B4EC /* SceneDelegate.swift in Sources */,

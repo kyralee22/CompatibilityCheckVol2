@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F404E478283EE9C5009AF91F /* pickPlacesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F404E477283EE9C5009AF91F /* pickPlacesViewController.swift */; };
+		F404E47A283EF009009AF91F /* RestaurantModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F404E479283EF009009AF91F /* RestaurantModalViewController.swift */; };
+		F4D081DE283EE40B0034044B /* NotWantViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D081DD283EE40B0034044B /* NotWantViewController.swift */; };
+		F4D081E0283EE5FA0034044B /* RandomizeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D081DF283EE5FA0034044B /* RandomizeViewController.swift */; };
 		F4DFD228277894C800F5E873 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4DFD227277894C800F5E873 /* AppDelegate.swift */; };
 		F4DFD22A277894C800F5E873 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4DFD229277894C800F5E873 /* SceneDelegate.swift */; };
 		F4DFD22C277894C800F5E873 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4DFD22B277894C800F5E873 /* ViewController.swift */; };
@@ -15,6 +19,7 @@
 		F4DFD234277894C900F5E873 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4DFD232277894C900F5E873 /* LaunchScreen.storyboard */; };
 		F4DFD23F277894C900F5E873 /* where2eatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4DFD23E277894C900F5E873 /* where2eatTests.swift */; };
 		F4DFD24A277894C900F5E873 /* where2eatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4DFD249277894C900F5E873 /* where2eatUITests.swift */; };
+		F4DFD258277F7BAE00F5E873 /* DinnerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4DFD257277F7BAE00F5E873 /* DinnerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +40,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F404E477283EE9C5009AF91F /* pickPlacesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pickPlacesViewController.swift; sourceTree = "<group>"; };
+		F404E479283EF009009AF91F /* RestaurantModalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantModalViewController.swift; sourceTree = "<group>"; };
+		F4D081DD283EE40B0034044B /* NotWantViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotWantViewController.swift; sourceTree = "<group>"; };
+		F4D081DF283EE5FA0034044B /* RandomizeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomizeViewController.swift; sourceTree = "<group>"; };
 		F4DFD224277894C800F5E873 /* where2eat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = where2eat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4DFD227277894C800F5E873 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F4DFD229277894C800F5E873 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +58,7 @@
 		F4DFD245277894C900F5E873 /* where2eatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = where2eatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4DFD249277894C900F5E873 /* where2eatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = where2eatUITests.swift; sourceTree = "<group>"; };
 		F4DFD24B277894C900F5E873 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4DFD257277F7BAE00F5E873 /* DinnerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DinnerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +109,11 @@
 		F4DFD226277894C800F5E873 /* where2eat */ = {
 			isa = PBXGroup;
 			children = (
+				F4DFD257277F7BAE00F5E873 /* DinnerViewController.swift */,
+				F404E477283EE9C5009AF91F /* pickPlacesViewController.swift */,
+				F404E479283EF009009AF91F /* RestaurantModalViewController.swift */,
+				F4D081DD283EE40B0034044B /* NotWantViewController.swift */,
+				F4D081DF283EE5FA0034044B /* RandomizeViewController.swift */,
 				F4DFD227277894C800F5E873 /* AppDelegate.swift */,
 				F4DFD229277894C800F5E873 /* SceneDelegate.swift */,
 				F4DFD22B277894C800F5E873 /* ViewController.swift */,
@@ -259,9 +274,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4DFD258277F7BAE00F5E873 /* DinnerViewController.swift in Sources */,
 				F4DFD22C277894C800F5E873 /* ViewController.swift in Sources */,
+				F4D081E0283EE5FA0034044B /* RandomizeViewController.swift in Sources */,
+				F404E47A283EF009009AF91F /* RestaurantModalViewController.swift in Sources */,
 				F4DFD228277894C800F5E873 /* AppDelegate.swift in Sources */,
 				F4DFD22A277894C800F5E873 /* SceneDelegate.swift in Sources */,
+				F4D081DE283EE40B0034044B /* NotWantViewController.swift in Sources */,
+				F404E478283EE9C5009AF91F /* pickPlacesViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

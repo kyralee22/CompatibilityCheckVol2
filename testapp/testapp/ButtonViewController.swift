@@ -10,10 +10,27 @@ import UIKit
 
 class ButtonViewController: UIViewController {
 
+    init() {
+        super.init(nibName: nil, bundle: nil)
+        var display = UILabel()
+        display.text = "you pressed the button :D"
+        view.addSubview(display)
+        
+        NSLayoutConstraint.activate([
+            display.centerYAnchor.constraint(equalTo: view.safeAreaLayoutGuide.centerYAnchor),
+            display.centerXAnchor.constraint(equalTo: view.safeAreaLayoutGuide.centerXAnchor)
+        ])
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
         // Do any additional setup after loading the view.
+    }
+    
+    
+    required init?(coder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
     }
     
 
